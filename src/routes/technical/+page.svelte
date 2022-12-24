@@ -51,11 +51,11 @@
 			>, I worked in DCP's
 			<a
 				href="https://www.nyc.gov/site/planning/planning-level/urban-design/urban-design-overview.page"
-				>Urban Design Office</a
-			>to make NYC’s “Dimensions of the City” into browser-based, animated,
-			interactive 3D tour. I led frontend development in React, Three.js, and
-			Valtio, allowing users to move within a viewport while moving along points
-			of interest on a 3D tour.
+				>Urban Design Office</a>
+			to make NYC’s “Dimensions of the City” into browser-based, animated, interactive
+			3D tour. I led frontend development in React, Three.js, and Valtio, allowing
+			users to move within a viewport while moving along points of interest on a
+			3D tour.
 		</p>
 		<br />
 		<h2>Environmental Defense Fund</h2>

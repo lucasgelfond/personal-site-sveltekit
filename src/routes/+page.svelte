@@ -71,13 +71,11 @@
 		<a href="https://letterboxd.com/lucasgelfond/">Letterboxd</a>.
 		<br />
 		<p>
-			This layout was is inspired primarily by
+			This layout was inspired primarily by
 			<a href="https://www.jessicad.ai/">Jessica Dai's website</a> along with
 			the sites of
 			<a href="https://www.nickabouzeid.com/">Nick Abouzeid</a>,
-			<a href="https://www.annawiener.com/">Anna Wiener</a>,
-			<a href="https://rishi.garden/">Rishi Tirumala</a>,
-			<a href="https://chia.design/">Chia Amisola</a> and
+			<a href="https://www.annawiener.com/">Anna Wiener</a>, and
 			<a href="https://www.kylechayka.com/">Kyle Chayka</a>.
 		</p>
 	</div>
