@@ -15,8 +15,8 @@
 		<h2>hi, i'm lucas!</h2>
 		Currently, I live in
 		<a href="https://www.youtube.com/watch?v=HNo5dCbKy0g">Providence, RI</a>,
-		where i study computer science and English at Brown. In my free time, I
-		Reboot's
+		where I study computer science and English at Brown. In my free time, I
+		co-lead Reboot's
 		<a href="https://reboothq.substack.com/p/fellowship-22"
 			>student fellowship</a>
 		and write/report, most recently for
