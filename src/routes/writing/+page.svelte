@@ -7,14 +7,16 @@
 </svelte:head>
 
 <main>
-	<a href="/">about</a> • <a href="/writing">writing</a>
-	<br />
+	<div class="nav">
+		<a href="/">about</a> • <a href="/writing">writing</a> •
+		<a href="/technical">technical work</a> <br />
+	</div>
 	<br />
 	<p>(favorites are in bold!)</p>
 	<div class="container">
 		<div class="item">
-			<h3>writing:</h3>
-			<h4>2022</h4>
+			<h2>writing:</h2>
+			<h3>2022</h3>
 			<ul>
 				<li>
 					On working in crypto after the crash (<a
@@ -56,7 +58,7 @@
 				</li>
 			</ul>
 			<br />
-			<h4>2021</h4>
+			<h3>2021</h3>
 			<ul>
 				<li>
 					<strong
@@ -114,7 +116,7 @@
 				</li>
 				<br />
 			</ul>
-			<h4>2020</h4>
+			<h3>2020</h3>
 			<ul>
 				<li>
 					On TikTok (<a href="https://theindy.org/article/2078"
@@ -144,8 +146,8 @@
 			<br />
 		</div>
 		<div class="item">
-			<h3>interviews:</h3>
-			<h4>2022</h4>
+			<h2>interviews:</h2>
+			<h3>2022</h3>
 			<ul>
 				<li>
 					<strong
@@ -201,7 +203,7 @@
 				</li>
 			</ul>
 			<br />
-			<h4>2021</h4>
+			<h3>2021</h3>
 			<ul>
 				<li>
 					with Lachlan Kermode, on Forensic Architecture and open source
@@ -229,31 +231,35 @@
 		font-family: 'IBM Plex Mono', monospace;
 	}
 
+	.nav {
+		font-weight: 300;
+	}
+
 	.container {
 		display: flex;
 		flex-direction: row;
 		column-gap: 5vw;
 		margin-right: 10vw;
+		font-weight: 300;
 	}
 	.item {
 		flex-basis: 50%;
 	}
 
 	li {
-		font-weight: 200;
+		font-weight: 300;
 	}
 	p {
 		margin-top: 4px;
-		font-weight: 200;
+		font-weight: 300;
 	}
 
-	h4 {
-		margin: 0px;
-		font-weight: 400;
-		font-size: 18px;
-	}
 	h3 {
+		margin: 0px;
 		font-weight: 500;
+	}
+	h2 {
+		font-weight: 600;
 	}
 
 	strong {
