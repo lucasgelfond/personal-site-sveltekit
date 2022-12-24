@@ -7,12 +7,10 @@
 </svelte:head>
 
 <main>
-	<p>
-		(favorites are in bold! this page was inspired by <a
-			href="https://www.kylechayka.com/">Kyle Chayka</a>
-		and
-		<a href="https://www.annawiener.com/writing">Anna Wiener's</a> websites)
-	</p>
+	<a href="/">about</a> • <a href="/writing">writing</a>
+	<br />
+	<br />
+	<p>(favorites are in bold!)</p>
 	<div class="container">
 		<div class="item">
 			<h3>writing:</h3>

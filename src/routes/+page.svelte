@@ -8,6 +8,7 @@
 
 <main>
 	<div class="container">
+		<a href="/">about</a> • <a href="/writing">writing</a>
 		<p>
 			<br />
 			hi, i'm lucas! currently, i:
@@ -93,6 +94,16 @@
 			href="https://drive.google.com/file/d/1OvSaSscmB_y61UQUpiiAd5RxxQYdXHB6/view?usp=sharing"
 			>resume
 		</a>
+		<br />
+		<p>
+			this site was inspired the sites of
+			<a href="https://www.jessicad.ai/">jessica dai</a>,
+			<a href="https://www.nickabouzeid.com/">nick abouzeid</a>,
+			<a href="https://www.annawiener.com/">anna wiener</a>,
+			<a href="https://rishi.garden/">rishi tirumala</a>,
+			<a href="https://chia.design/">chia amisola</a> and
+			<a href="https://www.kylechayka.com/">kyle chayka</a>
+		</p>
 	</div>
 </main>
 
@@ -109,7 +120,7 @@
 		width: 80vw;
 	}
 	a {
-		color: #586990;
+		color: #000000;
 	}
 	a:hover {
 		color: #041e42;
