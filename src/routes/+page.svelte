@@ -80,7 +80,8 @@
 			<a href="https://www.nickabouzeid.com/">Nick Abouzeid</a>,
 			<a href="https://www.annawiener.com/">Anna Wiener</a>, and
 			<a href="https://www.kylechayka.com/">Kyle Chayka</a>. I
-			<a href="">built</a> it using SvelteKit.
+			<a href="https://github.com/lucasgelfond/personal-site-sveltekit"
+				>built</a> it using SvelteKit.
 		</p>
 	</div>
 </main>
