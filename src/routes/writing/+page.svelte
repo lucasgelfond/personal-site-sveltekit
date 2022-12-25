@@ -225,9 +225,9 @@
 
 	main {
 		text-align: left;
-		padding: 1em;
-		size: 16px;
-		line-height: 24px;
+		padding: 6em;
+		font-size: 15px;
+		line-height: 23px;
 		font-family: 'IBM Plex Mono', monospace;
 	}
 
@@ -256,9 +256,11 @@
 
 	h3 {
 		margin: 0px;
+		font-size: 16px;
 		font-weight: 500;
 	}
 	h2 {
+		font-size: 18px;
 		font-weight: 600;
 	}
 
