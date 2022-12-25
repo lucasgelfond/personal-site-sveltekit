@@ -86,12 +86,12 @@
 </main>
 
 <style>
-	@media all and (max-width: 600px) {
+	@media all and (max-width: 700px) {
 		main {
 			padding: 1em;
 		}
 	}
-	@media all and (min-width: 601px) {
+	@media all and (min-width: 701px) {
 		main {
 			padding: 6em;
 		}
