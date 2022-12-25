@@ -219,7 +219,7 @@
 </main>
 
 <style>
-	@media all and (max-width: 480px) {
+	@media all and (max-width: 600px) {
 		main {
 			padding: 1em;
 		}
@@ -227,7 +227,7 @@
 			flex-direction: column;
 		}
 	}
-	@media all and (min-width: 481px) {
+	@media all and (min-width: 601px) {
 		main {
 			padding: 6em;
 		}

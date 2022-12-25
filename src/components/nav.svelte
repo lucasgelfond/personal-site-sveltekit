@@ -7,7 +7,7 @@
 <br class="nav-divider" />
 
 <style>
-	@media all and (max-width: 480px) {
+	@media all and (max-width: 600px) {
 		.nav {
 			flex-direction: column;
 		}
@@ -15,7 +15,7 @@
 			display: none;
 		}
 	}
-	@media all and (min-width: 481px) {
+	@media all and (min-width: 601px) {
 		.nav {
 			flex-direction: row;
 			gap: 6px;
