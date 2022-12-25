@@ -57,7 +57,7 @@
 		and most reachable by
 		<a href="mailto:lucasgelfond@gmail.com">email</a> &mdash; please say hi! For
 		professional and professional-adjacent things, find me on
-		<a href="https://linkedin.com/in/lucasgelfond">LinkedIn</a>
+		<a href="https://linkedin.com/in/lucasgelfond">Linkedin</a>
 		or read my
 		<a
 			href="https://drive.google.com/file/d/1OvSaSscmB_y61UQUpiiAd5RxxQYdXHB6/view?usp=sharing"

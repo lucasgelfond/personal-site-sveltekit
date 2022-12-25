@@ -193,7 +193,7 @@
 						>)</strong>
 				</li>
 				<li>
-					with Jenna Freedman, on whether blogs can be zines(<a
+					with Jenna Freedman, on whether blogs can be zines (<a
 						href="https://www.zinemun.ch/p/blogs">ZINE MUNCH</a
 					>)
 				</li>
