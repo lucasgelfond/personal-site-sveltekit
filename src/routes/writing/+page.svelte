@@ -269,11 +269,9 @@
 
 	h3 {
 		margin: 0px;
-		font-size: 16px;
 		font-weight: 500;
 	}
 	h2 {
-		font-size: 18px;
 		font-weight: 600;
 	}
 
