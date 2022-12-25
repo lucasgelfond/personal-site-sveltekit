@@ -1,3 +1,10 @@
+<script>
+	/**
+	 * @type {number}
+	 */
+	let clientWidth;
+</script>
+
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -7,7 +14,7 @@
 		rel="stylesheet" />
 </svelte:head>
 
-<main>
+<main bind:clientWidth style="padding: {clientWidth > 700 ? '6em' : '1em'}">
 	<div class="nav">
 		<a href="/">about</a> • <a href="/writing">writing</a> •
 		<a href="/technical">technical work</a> <br />
