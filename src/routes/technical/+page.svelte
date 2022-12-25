@@ -1,8 +1,5 @@
 <script>
-	/**
-	 * @type {number}
-	 */
-	let clientWidth;
+	import Nav from '../../components/nav.svelte';
 </script>
 
 <svelte:head>
@@ -14,11 +11,9 @@
 		rel="stylesheet" />
 </svelte:head>
 
-<main bind:clientWidth style="padding: {clientWidth > 700 ? '6em' : '1em'}">
+<main>
+	<Nav />
 	<div class="container">
-		<a href="/">about</a> • <a href="/writing">writing</a> •
-		<a href="/technical">technical work</a>
-		<br />
 		<br />
 		<h2>Substack</h2>
 		<h3>June 2022 — August 2022</h3>
@@ -102,9 +97,18 @@
 </main>
 
 <style scoped>
+	@media all and (max-width: 480px) {
+		main {
+			padding: 1em;
+		}
+	}
+	@media all and (min-width: 481px) {
+		main {
+			padding: 6em;
+		}
+	}
 	main {
 		text-align: left;
-		padding: 6em;
 		font-size: 15px;
 		line-height: 23px;
 		font-family: 'IBM Plex Mono', monospace;

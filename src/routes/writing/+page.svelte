@@ -1,8 +1,5 @@
 <script>
-	/**
-	 * @type {number}
-	 */
-	let clientWidth;
+	import Nav from '../../components/nav.svelte';
 </script>
 
 <svelte:head>
@@ -14,12 +11,8 @@
 		rel="stylesheet" />
 </svelte:head>
 
-<main bind:clientWidth style="padding: {clientWidth > 700 ? '6em' : '1em'}">
-	<div class="nav">
-		<a href="/">about</a> • <a href="/writing">writing</a> •
-		<a href="/technical">technical work</a> <br />
-	</div>
-	<br />
+<main>
+	<Nav />
 	<p>(favorites are in bold!)</p>
 	<div class="container">
 		<div class="item">
@@ -226,6 +219,23 @@
 </main>
 
 <style>
+	@media all and (max-width: 480px) {
+		main {
+			padding: 1em;
+		}
+		.container {
+			flex-direction: column;
+		}
+	}
+	@media all and (min-width: 481px) {
+		main {
+			padding: 6em;
+		}
+		.container {
+			flex-direction: row;
+		}
+	}
+
 	a {
 		text-decoration: none;
 		color: #ff0000;
@@ -233,19 +243,14 @@
 
 	main {
 		text-align: left;
-		padding: 6em;
 		font-size: 15px;
 		line-height: 23px;
 		font-family: 'IBM Plex Mono', monospace;
-	}
-
-	.nav {
 		font-weight: 300;
 	}
 
 	.container {
 		display: flex;
-		flex-direction: row;
 		column-gap: 5vw;
 		margin-right: 10vw;
 		font-weight: 300;
